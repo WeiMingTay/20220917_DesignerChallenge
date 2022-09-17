@@ -417,9 +417,17 @@ MediaQueries
     }
     /* --- Titlesection --- */
     main section:nth-of-type(4) div ul {
-        grid-template: repeat(2, 1fr) / 1fr;
-        gap: 1rem 1rem;
+        grid-template-columns: 1fr;
+        gap: .1rem;
+		margin-left: 1rem;
     }
+	main section:first-of-type a {
+		margin-top: 2rem;
+		margin-bottom: 10vh;
+	
+		font-size: .8rem;
+	
+	}
     /* --- are you ready!? section --- */
     .grid_section {
         grid-template-columns: 1fr;
