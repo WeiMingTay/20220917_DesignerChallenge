@@ -1,6 +1,6 @@
 20220917 DesignerChallenge
 
-Link zur Seite: 
+Link zur Seite: https://weimingtay.github.io/20220917_DesignerChallenge/
 
 # Aufgabenstellung
 
