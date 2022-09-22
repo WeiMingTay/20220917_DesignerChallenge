@@ -33,7 +33,7 @@
 			</section>
 			<section>
 				<h4>
-					Every idea <span><img src="assets/img/Lev3_2_Project_css-vertiefung_designer-challenge/idea.png" alt="light idea" /></span> starts with a
+					Every idea <img src="assets/img/Lev3_2_Project_css-vertiefung_designer-challenge/idea.png" alt="light idea" /> starts with a
 					need
 				</h4>
 				<p>
@@ -142,22 +142,29 @@
 				</div>
 			</section>
 		</main>
-		<footer>
+		<footer id="footerForSubmit">
 			<h4>Do you like this challenge?</h4>
 			<p>
 				Subscribe to be the first to hear about updates, tips and
 				recommendations!
 			</p>
-			<form action="">
+			<form action="" onsubmit="return false">
 				<input
 					type="email"
 					name="email"
 					id="email"
 					placeholder="Write your email here"
 				/>
-				<button>Subscribe</button>
+				<button onclick="submit()">Subscribe</button>
 			</form>
-			<p>Created with Love by a WebDesigner <span>❤️</span></p>
+			<p class="createdBy" >Created with Love by a WebDesigner <span>❤️</span></p>
+            <div class="subscription" id="subscription">
+                <p>🥳</p>
+                <h5>Your Email has been confirmed.</h5>
+                <h5>Thanks for Subscribing!!</h5>
+                <p>Please click on the link in your inbox. Thanks!</p>
+                <button>Back to designerchallenge.com</button>
+            </div>
 		</footer>
 
 		<script src="assets/js/script.js"></script>
